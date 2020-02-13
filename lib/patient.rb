@@ -21,6 +21,8 @@ class Patient
     Appointments.all.map {|appointment| appointment.patient}
   end
   
-  
+  def doctors
+    
+  end
   
 end
