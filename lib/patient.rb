@@ -17,6 +17,10 @@ class Patient
     @@all
   end
   
+  def appointments(patient)
+    Appointments.all.map {|appointment| appointment.patient}
+  end
+  
   
   
 end
